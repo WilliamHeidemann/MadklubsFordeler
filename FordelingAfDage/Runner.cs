@@ -3,11 +3,6 @@ using System.Globalization;
 namespace FordelingAfDage;
 
 // Next step: 
-
-// Eliminate columns of people who will not have madklub
-// Eliminate non madklub days 
-// Do this by marking the columns and rows as invalid somehow
-
 // Create output that can be pasted into google sheets
 
 public class Runner
