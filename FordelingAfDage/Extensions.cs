@@ -23,7 +23,7 @@ public static class Extensions
 
     public static string GetNameFromRoomNumber(this string roomNumber)
     {
-        const string path = "C:\\Users\\dkWiSkHe\\RiderProjects\\Madklub\\FordelingAfDage\\Navne.tsv";
+        const string path = "C:\\Users\\dkWiSkHe\\RiderProjects\\MadklubsFordeler\\FordelingAfDage\\Navne.tsv";
         var lookup = new Dictionary<string, string>();
         foreach (var line in File.ReadAllLines(path))
         {

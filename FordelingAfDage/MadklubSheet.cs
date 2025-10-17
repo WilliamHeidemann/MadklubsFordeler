@@ -87,7 +87,7 @@ public class MadklubSheet(string[] people)
                     continue;
                 }
 
-                bool wish = string.IsNullOrWhiteSpace(tsvTable[i, j]);
+                bool wish = !string.IsNullOrWhiteSpace(tsvTable[i, j]);
                 rowOfWishes.Add(wish);
             }
 

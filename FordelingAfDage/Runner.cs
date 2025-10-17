@@ -22,7 +22,7 @@ public class Runner
 
     public static void ReadTSV()
     {
-        var tsv = TsvTable.Load("C:\\Users\\dkWiSkHe\\RiderProjects\\Madklub\\FordelingAfDage\\TestSheet.tsv");
+        var tsv = TsvTable.Load("C:\\Users\\dkWiSkHe\\RiderProjects\\MadklubsFordeler\\FordelingAfDage\\TestSheet.tsv");
         // tsv.PrintTable();
         var madklubSheet = MadklubSheet.ReadFromTsv(tsv);
         // madklubSheet.Print();
