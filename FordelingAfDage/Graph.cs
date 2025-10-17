@@ -140,6 +140,11 @@ public class Graph
                     flowEdges.Remove(edge);
                 }
 
+                if (_personNodes.Contains(next))
+                {
+                    Console.WriteLine($"Edge constructed from {next.Id} to {current.Id}");
+                }
+                
                 flowEdges.Add((next, current));
 
                 residual[next].Remove(current);

@@ -7,6 +7,11 @@ namespace FordelingAfDage;
 
 public class Runner
 {
+    public static void Main(string[] args)
+    {
+        ReadTSV();
+    }
+    
     public static void ReadConsole()
     {
         var madklubSheet = MadklubSheet.ReadFromConsole();
@@ -17,7 +22,7 @@ public class Runner
 
     public static void ReadTSV()
     {
-        var tsv = TsvTable.Load("C:\\Users\\dkWiSkHe\\RiderProjects\\Kattis\\Madklub\\Madklub2.tsv");
+        var tsv = TsvTable.Load("C:\\Users\\dkWiSkHe\\RiderProjects\\Madklub\\FordelingAfDage\\TestSheet.tsv");
         // tsv.PrintTable();
         var madklubSheet = MadklubSheet.ReadFromTsv(tsv);
         // madklubSheet.Print();
