@@ -88,7 +88,7 @@ public class Graph
 
     public void PrintFlow()
     {
-        const string firstDayOfMadklubString = "23/10/2025";
+        const string firstDayOfMadklubString = "20/11/2025";
         DateTime firstDayOfMadklub = DateTime.ParseExact(firstDayOfMadklubString, "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
         (int maxFlow, var flowEdges) = MaxFlow();
